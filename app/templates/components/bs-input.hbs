@@ -1,0 +1,9 @@
+{{#if label}}
+  <label class="control-label" {{bind-attr for=input.elementId}}>{{label}}</label>
+{{/if}}
+
+{{input type=type class='form-control' viewName='input' id=id placeholder=placeholder name=name value=value required=required autofocus=autofocus disabled=disabled min=min max=max maxlength=maxlength}}
+
+{{#each error in errors}}
+  <span class="help-block">{{error.message}}</span>
+{{/each}}

@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-bs-input",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Just a simple addon to style inputs with bootstrap.",
   "directories": {
     "doc": "doc",
